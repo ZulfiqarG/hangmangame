@@ -1,7 +1,7 @@
 # Hangman Game
 ## Simple hangman game using words from an API
 
-Live Site: 
+Live Site: https://hangmangame-five.vercel.app/
 
 - Pulls a random word from an API
 - Has different difficulty settings (# of lives)
