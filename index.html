@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Hangman</title>
+</head>
+
+<body>
+
+
+    <main class="column" style="width: 85%; margin: auto;">
+        <header class="column">
+            <h1>Hangman</h1>
+            <button class="newWord" style="margin-bottom:1.5rem; height:3.5rem; width:10rem; font-size: 145%;">New Word</button>
+            <div class="row justifyBetween" id="difficulty" style="width: 25%;">
+                <div class="column ">
+                    <button id="easy">EASY</button>
+                    <p class="descript">12 Lives</p>
+                </div>
+                <div class="columm">
+                    <button id="norm">NORMAL</button>
+                    <p class="descript">9 lives</p>
+                </div>
+                <div class="column">
+                    <button id="hard">HARD</button>
+                    <p class="descript">6 Lives</p> 
+                </div>
+            </div>
+        </header>
+
+
+        <section class="row" id="gameArea">
+            <h2 id="livesLeft">Lives</h2>
+            <div id="imgSec">
+                <img src="assets/Images/HM6.jpg" id="hMan">
+            </div>
+            <section class="column justifyBetween">
+                <div class="row justifyAround" id="incorrect">
+
+                </div>
+
+                <div id="wordSec">
+                </div>
+            </section>
+        </section>
+    </main>
+
+
+
+
+    <!-- <Footer>By Me, bitches... Again...</Footer> -->
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js"
+        integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    <script src="assets/JS/dummyData.js"></script>
+    <script src="assets/JS/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+/* resets */
+* {
+    box-sizing: border-box;
+    /* padding: 0;
+    margin: 0; */
+    /* margin-bottom: 2rem; */
+}
+
+body {
+    font-family: sans-serif;
+    height: 100%;
+}
+
+/* Global Classes */
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+.justifyaround{
+    justify-content: space-around;
+}
+
+.justifyBetween {
+    justify-content: space-between;
+
+}
+.inc{
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+
+
+/* Custom styling */
+header {
+
+    align-items: center;
+    padding: 2rem;
+
+}
+
+/* #gameArea{
+    display: flex;
+    width:90%;
+    margin: auto;
+} */
+#imageSec {
+    width: 25%;
+}
+
+#hMan {
+    width: 275px;
+    height: 330px;
+    /* text-align: center; */
+}
+
+#livesLeft {
+    width: 10%;
+}
+
+#wordSec {
+
+    display: flex;
+    align-items:flex-end
+
+}
+
+#endGame {
+    position: absolute;
+    background-color: bisque;
+    left: 50%;
+    margin-left: -625px;
+    width: 1250px;
+    top: 5%;
+    height: 750px;
+    /* margin-top: 50px; */
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.3rem;
+}
+
+.EGItems {
+    padding: 1em 2em;
+    background-color: rgb(181, 181, 181);
+    border: 3px solid black;
+}
+
+#word {
+    font-size: 4em;
+}
+
+#definition {
+    font-size: 2.5em;
+}
+
+#listItem {
+    font-size: 500%;
+}
+
+.letter {
+    border: 2px solid black;
+    width: 1em;
+    font-size: 6rem;
+    padding: .3rem;
+    margin: 0 .7rem;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+
+.correct {
+    /* /* background: blue; */
+    color: black;
+
+}
+.descript{
+    margin: 0, auto;
+}
